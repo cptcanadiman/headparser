@@ -3,7 +3,7 @@ var parser = require('ua-parser-js')
 var app = express()
 
 
-app.get("/",function(req,res){
+app.get("/api/whoami",function(req,res){
    var ua = parser(req.headers['user-agent']);
    var header = parser(req.headers)
    var os = ua.os.name + " " + ua.os.version
