@@ -11,5 +11,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "ua-parser-js": "^0.7.12"
+  },
+  "engines": {
+    "node": "4.7.3"
   }
 }
